@@ -1,0 +1,88 @@
+   55  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilder.csv
+   56  ls
+   57  cat wilder.csv 
+   58  ls
+   59  rm Danish.csv Norwegian.csv Prenoms.csv Swedish.csv 
+   60  ls
+   61  grep PHP France 2019 wilder.csv > php_france_2019.csv
+   62  grep PHP && France && 2019 wilder.csv > php_france_2019.csv
+   63  help grep
+   64  man grep
+   65  wc PHP wilder.csv 
+   66  sort wilder.csv 
+   67  cat php_france_2019.csv 
+   68  grep France php_france_2019.csv > php_france_2019.csv 
+   69  cat php_france_2019.csv 
+   70  rm php_france_2019.csv 
+   71  ls
+   72  grep France wilder.csv > php_france_2019.csv 
+   73  cat php_france_2019.csv 
+   74  grep PHP wilder.csv > php_france_2019.csv 
+   75  cat
+   76  cat php_france_2019.csv 
+   77  rm php_france_2019.csv 
+   78  grep PHP wilder.csv > php_france_2019.csv 
+   79  rm php_france_2019.csv 
+   80  grep "PHP;France;2019" wilder.csv > php_france_2019.csv 
+   81  cat php_france_2019.csv 
+   82  grep "PHP;France;2019" < wilder.csv | wc -l
+   83  grep "PHP,France,2019" wilder.csv > php_france_2019.csv 
+   84  cat php_france_2019.csv 
+   85  ls
+   86  rm php_france_2019.csv 
+   87  grep "France,2019,PHP" wilder.csv > php_france_2019.csv 
+   88  cat php_france_2019.csv 
+   89  wc -l php_france_2019.csv 
+   90  wc php_france_2019.csv 
+   91  wc php_france_2019.csv > php_france_2019.csv 
+   92  cat php_france_2019.csv 
+   93  grep "France,2019,PHP" wilder.csv > php_france_2019.csv 
+   94  cat php_france_2019.csv 
+   95  wc -l php_france_2019.csv > php_france_2019_2.csv 
+   96  cat php_france_2019_2.csv 
+   97  cat php_france_2019.csv 
+   98  mv php_france_2019.csv php_france_2019_s.csv
+   99  mv php_france_2019_2.csv php_france_2019.csv
+  100  cat php_france_2019.csv 
+  101  ls
+  102  grep "Toulouse,Javascript" wilder.csv > Toulouse
+  103  cat Toulouse 
+  104  grep "Toulouse,*,Javascript" wilder.csv > Toulouse
+  105  cat Toulouse 
+  106  ls
+  107  rm Toulouse 
+  108  grep "Javascript" wilder.csv > java
+  109  cat java 
+  110  rm java 
+  111  grep "Javascript" wilder.csv > java.csv
+  112  cat java.csv 
+  113  grep "JavaScript" wilder.csv > java.csv
+  114  cat java.csv 
+  115  grep "Toulouse" java.csv > toulouse.csv
+  116  cat toulouse.csv 
+  117  grep "Biarritz" java.csv > biarritz.csv
+  118  cat biarritz.csv 
+  119  ls
+  120  mv toulouse.csv javascript_biarritz_toulouse.csv
+  121  ls
+  122  cat biarritz.csv >> javascript_biarritz_toulouse.csv 
+  123  cat javascript_biarritz_toulouse.csv 
+  124  ls
+  125  rm biarritz.csv 
+  126  ls
+  127  rm java.csv 
+  128  ls
+  129  rm Unix_commands.md 
+  130  ls
+  131  history
+  132  tail -n 78 > history.txt
+  133  ls
+  134  cat history.txt 
+  135  rm history.txt 
+  136  tail
+  137  history | tail -n 91
+  138  history | tail -n 82 > history.txt
+  139  cat history.txt 
+  140  history | tail -n 85 > history.txt
+  141  cat history.txt 
+  142  history | tail -n 88 > history.txt
